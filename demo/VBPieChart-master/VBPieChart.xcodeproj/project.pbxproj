@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2271CC01C4D85CE00AF8B8B /* VBCSimpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2271CBF1C4D85CE00AF8B8B /* VBCSimpleTests.m */; };
+		D2C0FB6818B01CBA00C51D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C0FB6718B01CBA00C51D08 /* Foundation.framework */; };
+		D2C0FB6A18B01CBA00C51D08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C0FB6918B01CBA00C51D08 /* CoreGraphics.framework */; };
+		D2C0FB6C18B01CBA00C51D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C0FB6B18B01CBA00C51D08 /* UIKit.framework */; };
+		D2C0FB7218B01CBA00C51D08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2C0FB7018B01CBA00C51D08 /* InfoPlist.strings */; };
+		D2C0FB7418B01CBA00C51D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0FB7318B01CBA00C51D08 /* main.m */; };
+		D2C0FB7818B01CBA00C51D08 /* VBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0FB7718B01CBA00C51D08 /* VBCAppDelegate.m */; };
+		D2C0FB7B18B01CBA00C51D08 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C0FB7918B01CBA00C51D08 /* Main_iPhone.storyboard */; };
+		D2C0FB7E18B01CBA00C51D08 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C0FB7C18B01CBA00C51D08 /* Main_iPad.storyboard */; };
+		D2C0FB8118B01CBA00C51D08 /* VBCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0FB8018B01CBA00C51D08 /* VBCViewController.m */; };
+		D2C0FB8318B01CBA00C51D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C0FB8218B01CBA00C51D08 /* Images.xcassets */; };
+		D2C0FBA318B01DC000C51D08 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C0FBA218B01DC000C51D08 /* QuartzCore.framework */; };
+		D2C0FBB018B02C0900C51D08 /* VBPiePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0FBAF18B02C0900C51D08 /* VBPiePiece.m */; };
+		D2C0FBB318B02C2400C51D08 /* VBPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0FBB218B02C2400C51D08 /* VBPieChart.m */; };
+		D2DBF2031C53BCAF006B868D /* pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2DBF2021C53BCAF006B868D /* pattern.jpg */; };
+		D2DBF2051C53BD1D006B868D /* pattern2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DBF2041C53BD1D006B868D /* pattern2.png */; };
+		D2DBF2081C540272006B868D /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DBF2071C540272006B868D /* UIColor+HexColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2271CBA1C4D85A400AF8B8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C0FB5C18B01CBA00C51D08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2C0FB6318B01CBA00C51D08;
+			remoteInfo = VBPieChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2271CB51C4D85A400AF8B8B /* VBPieChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBPieChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2271CB91C4D85A400AF8B8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2271CBF1C4D85CE00AF8B8B /* VBCSimpleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBCSimpleTests.m; sourceTree = "<group>"; };
+		D2C0FB6418B01CBA00C51D08 /* VBPieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBPieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C0FB6718B01CBA00C51D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2C0FB6918B01CBA00C51D08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2C0FB6B18B01CBA00C51D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2C0FB6F18B01CBA00C51D08 /* VBPieChart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VBPieChart-Info.plist"; sourceTree = "<group>"; };
+		D2C0FB7118B01CBA00C51D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2C0FB7318B01CBA00C51D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2C0FB7518B01CBA00C51D08 /* VBPieChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VBPieChart-Prefix.pch"; sourceTree = "<group>"; };
+		D2C0FB7618B01CBA00C51D08 /* VBCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBCAppDelegate.h; sourceTree = "<group>"; };
+		D2C0FB7718B01CBA00C51D08 /* VBCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBCAppDelegate.m; sourceTree = "<group>"; };
+		D2C0FB7A18B01CBA00C51D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D2C0FB7D18B01CBA00C51D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D2C0FB7F18B01CBA00C51D08 /* VBCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBCViewController.h; sourceTree = "<group>"; };
+		D2C0FB8018B01CBA00C51D08 /* VBCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBCViewController.m; sourceTree = "<group>"; };
+		D2C0FB8218B01CBA00C51D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2C0FB8918B01CBA00C51D08 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D2C0FBA218B01DC000C51D08 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D2C0FBAE18B02C0900C51D08 /* VBPiePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBPiePiece.h; path = Classes/VBPiePiece.h; sourceTree = "<group>"; };
+		D2C0FBAF18B02C0900C51D08 /* VBPiePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBPiePiece.m; path = Classes/VBPiePiece.m; sourceTree = "<group>"; };
+		D2C0FBB118B02C2400C51D08 /* VBPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBPieChart.h; path = Classes/VBPieChart.h; sourceTree = "<group>"; };
+		D2C0FBB218B02C2400C51D08 /* VBPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBPieChart.m; path = Classes/VBPieChart.m; sourceTree = "<group>"; };
+		D2D6AD381C4BC97D00125D9E /* VBPiePiece_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VBPiePiece_private.h; path = Classes/VBPiePiece_private.h; sourceTree = "<group>"; };
+		D2DBF2021C53BCAF006B868D /* pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern.jpg; sourceTree = "<group>"; };
+		D2DBF2041C53BD1D006B868D /* pattern2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern2.png; sourceTree = "<group>"; };
+		D2DBF2061C540272006B868D /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexColor.h"; path = "Classes/UIColor+HexColor.h"; sourceTree = "<group>"; };
+		D2DBF2071C540272006B868D /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexColor.m"; path = "Classes/UIColor+HexColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2271CB21C4D85A400AF8B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C0FB6118B01CBA00C51D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C0FBA318B01DC000C51D08 /* QuartzCore.framework in Frameworks */,
+				D2C0FB6A18B01CBA00C51D08 /* CoreGraphics.framework in Frameworks */,
+				D2C0FB6C18B01CBA00C51D08 /* UIKit.framework in Frameworks */,
+				D2C0FB6818B01CBA00C51D08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2271CB61C4D85A400AF8B8B /* VBPieChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2271CBF1C4D85CE00AF8B8B /* VBCSimpleTests.m */,
+				D2271CB91C4D85A400AF8B8B /* Info.plist */,
+			);
+			path = VBPieChartTests;
+			sourceTree = "<group>";
+		};
+		D2C0FB5B18B01CBA00C51D08 = {
+			isa = PBXGroup;
+			children = (
+				D2C0FB6D18B01CBA00C51D08 /* VBPieChart */,
+				D2271CB61C4D85A400AF8B8B /* VBPieChartTests */,
+				D2C0FB6618B01CBA00C51D08 /* Frameworks */,
+				D2C0FB6518B01CBA00C51D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2C0FB6518B01CBA00C51D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2C0FB6418B01CBA00C51D08 /* VBPieChart.app */,
+				D2271CB51C4D85A400AF8B8B /* VBPieChartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2C0FB6618B01CBA00C51D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C0FBA218B01DC000C51D08 /* QuartzCore.framework */,
+				D2C0FB6718B01CBA00C51D08 /* Foundation.framework */,
+				D2C0FB6918B01CBA00C51D08 /* CoreGraphics.framework */,
+				D2C0FB6B18B01CBA00C51D08 /* UIKit.framework */,
+				D2C0FB8918B01CBA00C51D08 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C0FB6D18B01CBA00C51D08 /* VBPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				D2C0FB7618B01CBA00C51D08 /* VBCAppDelegate.h */,
+				D2C0FB7718B01CBA00C51D08 /* VBCAppDelegate.m */,
+				D2C0FB7918B01CBA00C51D08 /* Main_iPhone.storyboard */,
+				D2C0FB7C18B01CBA00C51D08 /* Main_iPad.storyboard */,
+				D2C0FB7F18B01CBA00C51D08 /* VBCViewController.h */,
+				D2C0FB8018B01CBA00C51D08 /* VBCViewController.m */,
+				D2C0FBB118B02C2400C51D08 /* VBPieChart.h */,
+				D2C0FBB218B02C2400C51D08 /* VBPieChart.m */,
+				D2C0FBAE18B02C0900C51D08 /* VBPiePiece.h */,
+				D2C0FBAF18B02C0900C51D08 /* VBPiePiece.m */,
+				D2D6AD381C4BC97D00125D9E /* VBPiePiece_private.h */,
+				D2DBF2061C540272006B868D /* UIColor+HexColor.h */,
+				D2DBF2071C540272006B868D /* UIColor+HexColor.m */,
+				D2C0FB8218B01CBA00C51D08 /* Images.xcassets */,
+				D2C0FB6E18B01CBA00C51D08 /* Supporting Files */,
+			);
+			path = VBPieChart;
+			sourceTree = "<group>";
+		};
+		D2C0FB6E18B01CBA00C51D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2DBF2021C53BCAF006B868D /* pattern.jpg */,
+				D2DBF2041C53BD1D006B868D /* pattern2.png */,
+				D2C0FB6F18B01CBA00C51D08 /* VBPieChart-Info.plist */,
+				D2C0FB7018B01CBA00C51D08 /* InfoPlist.strings */,
+				D2C0FB7318B01CBA00C51D08 /* main.m */,
+				D2C0FB7518B01CBA00C51D08 /* VBPieChart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2271CB41C4D85A400AF8B8B /* VBPieChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2271CBE1C4D85A400AF8B8B /* Build configuration list for PBXNativeTarget "VBPieChartTests" */;
+			buildPhases = (
+				D2271CB11C4D85A400AF8B8B /* Sources */,
+				D2271CB21C4D85A400AF8B8B /* Frameworks */,
+				D2271CB31C4D85A400AF8B8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2271CBB1C4D85A400AF8B8B /* PBXTargetDependency */,
+			);
+			name = VBPieChartTests;
+			productName = VBPieChartTests;
+			productReference = D2271CB51C4D85A400AF8B8B /* VBPieChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2C0FB6318B01CBA00C51D08 /* VBPieChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C0FB9918B01CBA00C51D08 /* Build configuration list for PBXNativeTarget "VBPieChart" */;
+			buildPhases = (
+				D2C0FB6018B01CBA00C51D08 /* Sources */,
+				D2C0FB6118B01CBA00C51D08 /* Frameworks */,
+				D2C0FB6218B01CBA00C51D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VBPieChart;
+			productName = Charts;
+			productReference = D2C0FB6418B01CBA00C51D08 /* VBPieChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2C0FB5C18B01CBA00C51D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VBC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = SAKrisT;
+				TargetAttributes = {
+					D2271CB41C4D85A400AF8B8B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D2C0FB6318B01CBA00C51D08;
+					};
+					D2C0FB6318B01CBA00C51D08 = {
+						DevelopmentTeam = DHKZ7WR43P;
+					};
+				};
+			};
+			buildConfigurationList = D2C0FB5F18B01CBA00C51D08 /* Build configuration list for PBXProject "VBPieChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2C0FB5B18B01CBA00C51D08;
+			productRefGroup = D2C0FB6518B01CBA00C51D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2C0FB6318B01CBA00C51D08 /* VBPieChart */,
+				D2271CB41C4D85A400AF8B8B /* VBPieChartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2271CB31C4D85A400AF8B8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C0FB6218B01CBA00C51D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C0FB7E18B01CBA00C51D08 /* Main_iPad.storyboard in Resources */,
+				D2C0FB8318B01CBA00C51D08 /* Images.xcassets in Resources */,
+				D2DBF2031C53BCAF006B868D /* pattern.jpg in Resources */,
+				D2C0FB7B18B01CBA00C51D08 /* Main_iPhone.storyboard in Resources */,
+				D2C0FB7218B01CBA00C51D08 /* InfoPlist.strings in Resources */,
+				D2DBF2051C53BD1D006B868D /* pattern2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2271CB11C4D85A400AF8B8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2271CC01C4D85CE00AF8B8B /* VBCSimpleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C0FB6018B01CBA00C51D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C0FB7818B01CBA00C51D08 /* VBCAppDelegate.m in Sources */,
+				D2C0FB7418B01CBA00C51D08 /* main.m in Sources */,
+				D2C0FB8118B01CBA00C51D08 /* VBCViewController.m in Sources */,
+				D2C0FBB318B02C2400C51D08 /* VBPieChart.m in Sources */,
+				D2C0FBB018B02C0900C51D08 /* VBPiePiece.m in Sources */,
+				D2DBF2081C540272006B868D /* UIColor+HexColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2271CBB1C4D85A400AF8B8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2C0FB6318B01CBA00C51D08 /* VBPieChart */;
+			targetProxy = D2271CBA1C4D85A400AF8B8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2C0FB7018B01CBA00C51D08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C0FB7118B01CBA00C51D08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2C0FB7918B01CBA00C51D08 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C0FB7A18B01CBA00C51D08 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D2C0FB7C18B01CBA00C51D08 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C0FB7D18B01CBA00C51D08 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2271CBC1C4D85A400AF8B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = VBPieChartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakrist.VBPieChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VBPieChart.app/VBPieChart";
+			};
+			name = Debug;
+		};
+		D2271CBD1C4D85A400AF8B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = VBPieChartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakrist.VBPieChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VBPieChart.app/VBPieChart";
+			};
+			name = Release;
+		};
+		D2C0FB9718B01CBA00C51D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2C0FB9818B01CBA00C51D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2C0FB9A18B01CBA00C51D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VBPieChart/VBPieChart-Prefix.pch";
+				INFOPLIST_FILE = "VBPieChart/VBPieChart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = VBPieChart;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2C0FB9B18B01CBA00C51D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VBPieChart/VBPieChart-Prefix.pch";
+				INFOPLIST_FILE = "VBPieChart/VBPieChart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = VBPieChart;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2271CBE1C4D85A400AF8B8B /* Build configuration list for PBXNativeTarget "VBPieChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2271CBC1C4D85A400AF8B8B /* Debug */,
+				D2271CBD1C4D85A400AF8B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C0FB5F18B01CBA00C51D08 /* Build configuration list for PBXProject "VBPieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C0FB9718B01CBA00C51D08 /* Debug */,
+				D2C0FB9818B01CBA00C51D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C0FB9918B01CBA00C51D08 /* Build configuration list for PBXNativeTarget "VBPieChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C0FB9A18B01CBA00C51D08 /* Debug */,
+				D2C0FB9B18B01CBA00C51D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2C0FB5C18B01CBA00C51D08 /* Project object */;
+}
