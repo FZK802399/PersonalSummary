@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18755C671946E19B0031B940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18755C661946E19B0031B940 /* Foundation.framework */; };
+		18755C691946E19B0031B940 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18755C681946E19B0031B940 /* CoreGraphics.framework */; };
+		18755C6B1946E19B0031B940 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18755C6A1946E19B0031B940 /* UIKit.framework */; };
+		18755C711946E19B0031B940 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18755C6F1946E19B0031B940 /* InfoPlist.strings */; };
+		18755C731946E19B0031B940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18755C721946E19B0031B940 /* main.m */; };
+		18755C771946E19B0031B940 /* NJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18755C761946E19B0031B940 /* NJAppDelegate.m */; };
+		18755C7A1946E19B0031B940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18755C781946E19B0031B940 /* Main.storyboard */; };
+		18755C7D1946E19B0031B940 /* NJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18755C7C1946E19B0031B940 /* NJViewController.m */; };
+		18755C7F1946E19B0031B940 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18755C7E1946E19B0031B940 /* Images.xcassets */; };
+		18755C861946E19B0031B940 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18755C851946E19B0031B940 /* XCTest.framework */; };
+		18755C871946E19B0031B940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18755C661946E19B0031B940 /* Foundation.framework */; };
+		18755C881946E19B0031B940 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18755C6A1946E19B0031B940 /* UIKit.framework */; };
+		18755C901946E19B0031B940 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18755C8E1946E19B0031B940 /* InfoPlist.strings */; };
+		18755C921946E19B0031B940 /* _8_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18755C911946E19B0031B940 /* _8_____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18755C891946E19B0031B940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18755C5B1946E19B0031B940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18755C621946E19B0031B940;
+			remoteInfo = "08-条纹背景";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18755C631946E19B0031B940 /* 08-条纹背景.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08-条纹背景.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18755C661946E19B0031B940 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18755C681946E19B0031B940 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18755C6A1946E19B0031B940 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18755C6E1946E19B0031B940 /* 08-条纹背景-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "08-条纹背景-Info.plist"; sourceTree = "<group>"; };
+		18755C701946E19B0031B940 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18755C721946E19B0031B940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18755C741946E19B0031B940 /* 08-条纹背景-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "08-条纹背景-Prefix.pch"; sourceTree = "<group>"; };
+		18755C751946E19B0031B940 /* NJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJAppDelegate.h; sourceTree = "<group>"; };
+		18755C761946E19B0031B940 /* NJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJAppDelegate.m; sourceTree = "<group>"; };
+		18755C791946E19B0031B940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18755C7B1946E19B0031B940 /* NJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJViewController.h; sourceTree = "<group>"; };
+		18755C7C1946E19B0031B940 /* NJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJViewController.m; sourceTree = "<group>"; };
+		18755C7E1946E19B0031B940 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18755C841946E19B0031B940 /* 08-条纹背景Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08-条纹背景Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18755C851946E19B0031B940 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18755C8D1946E19B0031B940 /* 08-条纹背景Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "08-条纹背景Tests-Info.plist"; sourceTree = "<group>"; };
+		18755C8F1946E19B0031B940 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18755C911946E19B0031B940 /* _8_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_8_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18755C601946E19B0031B940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18755C691946E19B0031B940 /* CoreGraphics.framework in Frameworks */,
+				18755C6B1946E19B0031B940 /* UIKit.framework in Frameworks */,
+				18755C671946E19B0031B940 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18755C811946E19B0031B940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18755C861946E19B0031B940 /* XCTest.framework in Frameworks */,
+				18755C881946E19B0031B940 /* UIKit.framework in Frameworks */,
+				18755C871946E19B0031B940 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18755C5A1946E19B0031B940 = {
+			isa = PBXGroup;
+			children = (
+				18755C6C1946E19B0031B940 /* 08-条纹背景 */,
+				18755C8B1946E19B0031B940 /* 08-条纹背景Tests */,
+				18755C651946E19B0031B940 /* Frameworks */,
+				18755C641946E19B0031B940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18755C641946E19B0031B940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18755C631946E19B0031B940 /* 08-条纹背景.app */,
+				18755C841946E19B0031B940 /* 08-条纹背景Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18755C651946E19B0031B940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18755C661946E19B0031B940 /* Foundation.framework */,
+				18755C681946E19B0031B940 /* CoreGraphics.framework */,
+				18755C6A1946E19B0031B940 /* UIKit.framework */,
+				18755C851946E19B0031B940 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18755C6C1946E19B0031B940 /* 08-条纹背景 */ = {
+			isa = PBXGroup;
+			children = (
+				18755C751946E19B0031B940 /* NJAppDelegate.h */,
+				18755C761946E19B0031B940 /* NJAppDelegate.m */,
+				18755C781946E19B0031B940 /* Main.storyboard */,
+				18755C7B1946E19B0031B940 /* NJViewController.h */,
+				18755C7C1946E19B0031B940 /* NJViewController.m */,
+				18755C7E1946E19B0031B940 /* Images.xcassets */,
+				18755C6D1946E19B0031B940 /* Supporting Files */,
+			);
+			path = "08-条纹背景";
+			sourceTree = "<group>";
+		};
+		18755C6D1946E19B0031B940 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18755C6E1946E19B0031B940 /* 08-条纹背景-Info.plist */,
+				18755C6F1946E19B0031B940 /* InfoPlist.strings */,
+				18755C721946E19B0031B940 /* main.m */,
+				18755C741946E19B0031B940 /* 08-条纹背景-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18755C8B1946E19B0031B940 /* 08-条纹背景Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18755C911946E19B0031B940 /* _8_____Tests.m */,
+				18755C8C1946E19B0031B940 /* Supporting Files */,
+			);
+			path = "08-条纹背景Tests";
+			sourceTree = "<group>";
+		};
+		18755C8C1946E19B0031B940 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18755C8D1946E19B0031B940 /* 08-条纹背景Tests-Info.plist */,
+				18755C8E1946E19B0031B940 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18755C621946E19B0031B940 /* 08-条纹背景 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18755C951946E19B0031B940 /* Build configuration list for PBXNativeTarget "08-条纹背景" */;
+			buildPhases = (
+				18755C5F1946E19B0031B940 /* Sources */,
+				18755C601946E19B0031B940 /* Frameworks */,
+				18755C611946E19B0031B940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08-条纹背景";
+			productName = "08-条纹背景";
+			productReference = 18755C631946E19B0031B940 /* 08-条纹背景.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18755C831946E19B0031B940 /* 08-条纹背景Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18755C981946E19B0031B940 /* Build configuration list for PBXNativeTarget "08-条纹背景Tests" */;
+			buildPhases = (
+				18755C801946E19B0031B940 /* Sources */,
+				18755C811946E19B0031B940 /* Frameworks */,
+				18755C821946E19B0031B940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18755C8A1946E19B0031B940 /* PBXTargetDependency */,
+			);
+			name = "08-条纹背景Tests";
+			productName = "08-条纹背景Tests";
+			productReference = 18755C841946E19B0031B940 /* 08-条纹背景Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18755C5B1946E19B0031B940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = heima;
+				TargetAttributes = {
+					18755C831946E19B0031B940 = {
+						TestTargetID = 18755C621946E19B0031B940;
+					};
+				};
+			};
+			buildConfigurationList = 18755C5E1946E19B0031B940 /* Build configuration list for PBXProject "08-条纹背景" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18755C5A1946E19B0031B940;
+			productRefGroup = 18755C641946E19B0031B940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18755C621946E19B0031B940 /* 08-条纹背景 */,
+				18755C831946E19B0031B940 /* 08-条纹背景Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18755C611946E19B0031B940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18755C7F1946E19B0031B940 /* Images.xcassets in Resources */,
+				18755C711946E19B0031B940 /* InfoPlist.strings in Resources */,
+				18755C7A1946E19B0031B940 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18755C821946E19B0031B940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18755C901946E19B0031B940 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18755C5F1946E19B0031B940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18755C7D1946E19B0031B940 /* NJViewController.m in Sources */,
+				18755C771946E19B0031B940 /* NJAppDelegate.m in Sources */,
+				18755C731946E19B0031B940 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18755C801946E19B0031B940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18755C921946E19B0031B940 /* _8_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18755C8A1946E19B0031B940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18755C621946E19B0031B940 /* 08-条纹背景 */;
+			targetProxy = 18755C891946E19B0031B940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18755C6F1946E19B0031B940 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18755C701946E19B0031B940 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18755C781946E19B0031B940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18755C791946E19B0031B940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18755C8E1946E19B0031B940 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18755C8F1946E19B0031B940 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18755C931946E19B0031B940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18755C941946E19B0031B940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18755C961946E19B0031B940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-条纹背景/08-条纹背景-Prefix.pch";
+				INFOPLIST_FILE = "08-条纹背景/08-条纹背景-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18755C971946E19B0031B940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-条纹背景/08-条纹背景-Prefix.pch";
+				INFOPLIST_FILE = "08-条纹背景/08-条纹背景-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18755C991946E19B0031B940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/08-条纹背景.app/08-条纹背景";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-条纹背景/08-条纹背景-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "08-条纹背景Tests/08-条纹背景Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18755C9A1946E19B0031B940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/08-条纹背景.app/08-条纹背景";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08-条纹背景/08-条纹背景-Prefix.pch";
+				INFOPLIST_FILE = "08-条纹背景Tests/08-条纹背景Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18755C5E1946E19B0031B940 /* Build configuration list for PBXProject "08-条纹背景" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18755C931946E19B0031B940 /* Debug */,
+				18755C941946E19B0031B940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18755C951946E19B0031B940 /* Build configuration list for PBXNativeTarget "08-条纹背景" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18755C961946E19B0031B940 /* Debug */,
+				18755C971946E19B0031B940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18755C981946E19B0031B940 /* Build configuration list for PBXNativeTarget "08-条纹背景Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18755C991946E19B0031B940 /* Debug */,
+				18755C9A1946E19B0031B940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18755C5B1946E19B0031B940 /* Project object */;
+}
